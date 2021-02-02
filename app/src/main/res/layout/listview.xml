@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+
+    android:background="#e6e6e6">
+
+
+    <ImageView
+        android:id="@+id/imageViewImage"
+        android:layout_width="136dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/background" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/imageViewImage"
+        android:text="TextView"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textViewSalt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+      android:layout_below="@+id/textViewName"
+
+        android:layout_toRightOf="@+id/imageViewImage"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/decreaseButton"
+        android:layout_width="22dp"
+        android:layout_height="24dp"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="113dp"
+        android:layout_marginRight="68dp"
+        android:background="@drawable/newbtnshape"
+        android:text="-"
+        android:textAlignment="center"
+
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/increaseButton"
+        android:layout_width="22dp"
+        android:layout_height="24dp"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="113dp"
+
+        android:layout_marginRight="18dp"
+        android:background="@drawable/newbtnshape"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="112dp"
+
+        android:layout_marginRight="49dp"
+
+        android:text="0"
+        android:textSize="18sp" />
+</RelativeLayout>

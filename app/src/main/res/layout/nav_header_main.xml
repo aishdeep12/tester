@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/gradientcolour"
+    android:gravity="bottom"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/imageViewUser"
+        android:layout_width="96dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="40dp"
+        android:contentDescription="@string/nav_header_desc"
+
+        android:src="@drawable/download" />
+
+
+    <TextView
+        android:id="@+id/textViewUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="45dp"
+        android:text="Aishdeep"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="65dp"
+        android:text="deep.kh.aish@gmail.com" />
+
+    <TextView
+    android:id="@+id/textViewWelcome"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="115dp"
+    android:layout_marginTop="5dp"
+    android:text="Welcome!"
+    android:textSize="22sp"
+    android:textStyle="bold" />
+
+</RelativeLayout>
